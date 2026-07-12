@@ -1,0 +1,28 @@
+{
+  "name": "gexcite-backend",
+  "version": "1.0.0",
+  "description": "Gexcite - AI-powered lead generation backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongoose": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "openai": "^3.3.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "@types/jsonwebtoken": "^9.0.2",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
